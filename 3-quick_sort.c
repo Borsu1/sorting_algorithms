@@ -49,6 +49,10 @@ return (i + 1);
  */
 void quick_sort(int arr[], int low, int high)
 {
+if (arr == NULL)
+{
+return;
+}
 if (low < high)
 {
 int pi = partition(arr, low, high);
