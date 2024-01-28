@@ -20,6 +20,7 @@ int temp = *x;
  */
 void printArray(int array[], size_t size)
 {
+size_t i;
 for (size_t i = 0; i < size; i++)
 printf("%d ", array[i]);
 printf("\n");

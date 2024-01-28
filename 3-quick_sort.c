@@ -36,8 +36,8 @@ swap(&arr[i], &arr[j]);
 printf("Swapped elements: %d and %d\n", arr[i], arr[j]);
 }
 }
+printf("Swapped elements: %d and %d\n", arr[i], arr[j]);
 swap(&arr[i + 1], &arr[high]);
-printf("Swapped elements: %d and %d\n", arr[i + 1], arr[high]);
 return (i + 1);
 }
 
